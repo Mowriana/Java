@@ -1,0 +1,9 @@
+public static string StringCreater(string text, int repeatCount)
+        {
+            String repeatedText = string.Empty;
+            for(int currentCount = 0; currentCount < repeatCount; currentCount++)
+{
+                repeatedText += text;
+            }
+            return repeatedText;
+        }
